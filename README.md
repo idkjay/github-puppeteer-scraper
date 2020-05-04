@@ -1,14 +1,13 @@
-# puppeteer-scraper
+# github-puppeteer-scraper
 puppeteer scraper that pulls github trending repositories 
 
 PART 1
 
 Create a directory
 
-1. Need to install NPM
-  npm init -y to create an empty package.json
+1. In your terminal run, npm init -y This will generate a package.json for managing project dependencies.
 
-2. Then install Puppeteer, a Node library which provides API to control headless Chrome/Chromium over the DevTools Protocol. Created by the Chrome developmental team at Google.
+2. Then install Puppeteer, a Node library which provides API to control headless Chrome/Chromium over the DevTools Protocol. Created by the Chrome developmental team at Google. npm install --save puppeteer
 
 Anything, well most things, you can do manually in the browser can be recreated via Puppeteer.
   generate ss and pdfs
